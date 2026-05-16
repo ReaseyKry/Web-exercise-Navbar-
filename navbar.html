@@ -13,11 +13,12 @@
 
     nav li{
         margin: 0 0.5rem;
+        list-style: none; 
     }
 
     nav a{
         font-family: Arial, Helvetica, sans-serif;
-        color:white;
+        color: white;
         text-decoration: none;
     }
 
@@ -26,20 +27,18 @@
     nav ul{
         display: flex;
         flex-direction: column;
-        justify-content: center;
-        list-style: none; 
+        align-items: center;
         text-align: center;
     }
     }
 }
 
-@media (min-width: 768px) and (max-width: 1500px){
+@media (min-width: 768px){
     body{
     nav ul{
         display: flex;
         flex-direction: row;
         justify-content: end;
-        list-style: none;
     }
     }
 }
